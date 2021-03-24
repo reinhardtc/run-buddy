@@ -11,6 +11,9 @@ body {
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 header h3 {
@@ -22,7 +25,6 @@ header h1 {
     font-size: 36px;
     color: #fce138;
     margin: 0;
-    display: inline;
 }
 
 header a {
@@ -30,7 +32,6 @@ header a {
     color: #fce138;
 }
 header nav {
-    float: right;
     margin: 7px 0;
 }
 
@@ -39,7 +40,7 @@ header nav ul li {
 }
 
 header nav ul li a {
-    margin: 0 30px;
+    padding: 10px 15px;
     font-weight: lighter;
     font-size: 22px;
 }
@@ -83,6 +84,7 @@ section {
     background-size: cover;
     background-position: center;
     position: relative;
+    align-items: flex-start;
 }
 
 .hero-form {
@@ -94,6 +96,7 @@ section {
     position: absolute;
     bottom: 120px;
     right: 140px;
+    line-height: 1.2;
 }
 
 .hero-form h3 {
@@ -145,7 +148,7 @@ section {
 }
 
 .section-title {
-    font-size: 55px;
+    font-size: 48px;
     color: #024e76;
     margin-bottom: 35px;
     padding: 0 100px 20px 100px;
